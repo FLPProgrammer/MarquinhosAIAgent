@@ -1,0 +1,21 @@
+{
+  "name": "marquinhos-whatsapp-agent",
+  "version": "1.0.0",
+  "private": true,
+  "type": "module",
+  "scripts": {
+    "start": "node src/index.ts"
+  },
+  "dependencies": {
+    "baileys": "github:doryani-ai/Baileys#fix/companion-reg-refresh",
+    "ollama": "^0.6.3",
+    "qrcode-terminal": "^0.12.0"
+  },
+  "allowScripts": {
+    "github:doryani-ai/Baileys#4f263f0e365c2e74dd1b824031d1c5910f518c26": true,
+    "protobufjs@7.6.6": true
+  },
+  "devDependencies": {
+    "@types/qrcode-terminal": "^0.12.2"
+  }
+}

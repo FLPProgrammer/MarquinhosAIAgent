@@ -1,0 +1,22 @@
+
+# Credenciais e sessão do WhatsApp
+auth_info_baileys/
+*creds.json
+*.session
+
+# Variáveis de ambiente e segredos
+.env
+.env.*
+!.env.example
+
+# Dependências
+node_modules/
+
+# Logs
+*.log
+npm-debug.log*
+
+# Sistema operacional e editor
+.DS_Store
+Thumbs.db
+.vscode/
